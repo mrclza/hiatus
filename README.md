@@ -1,5 +1,5 @@
 # Hiatus
-====
+
 ![example screenshot](https://i.imgur.com/1zXy7yY.png)
 
 A custom homepage with hyperlinks.
