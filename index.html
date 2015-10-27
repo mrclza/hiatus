@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Hiatus </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.png" sizes="16x16 32x32 48x48 64x64" type="image/png">
+  <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="layout.css">
+  <script>
+    function startTime() {
+              var today=new Date();
+              var h=today.getHours();
+              var m=today.getMinutes();
+              var s=today.getSeconds();
+              var timeOfDay = (h < 12) ? "AM" : "PM";
+              h = (h > 12) ? h - 12 : h;
+    	  if (h === 0) {
+    		h = 12;
+    		}
+    	  m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('clock').innerHTML = h+":"+m+":"+s+" "+timeOfDay;
+    	    var t = setTimeout(function(){startTime()},500);
+    	}
+
+    	function checkTime(i) {
+    	    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    	    return i;
+    	}
+document.onkeydown = function(e) {
+    var input = document.getElementById('usr');
+    input.focus();
+}
+  </script>
+  <style>
+h2 {
+margin-top: 10px;
+font-family: 'MS Gothic';
+}
+h1 {  font-family: 'MS Gothic';
+      font-size: 6.5em;
+   }
+h6 {  font-family: 'MS Gothic'}
+  </style>
+</head>
+
+<body onload="startTime()">
+   <center><div class="container" style="position: absolute; left: 50%; top: 20%; transform: translateY(-30%) translateX(-50%) ! important;">
+   <h1>Hiatus</h1>
+   </div></center>
+   
+   <div class="container" style="position: absolute; left: 50%; top: 50%; transform: translateY(-30%) translateX(-50%) ! important;">
+    <form method="get" action="https://google.com/search">
+      <input type="text" class="form-control" id="usr" style="background-color:rgba(255, 255, 255, .8); padding: 0px 7px;  height: 38px; font-size: 1.8em;" name="q" placeholder="" autofocus="autofocus" autocomplete="off" search_="" />
+	  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What you're looking for?</h6>
+    </form>
+    <div class="row" style="background-color: rgba(255, 255, 255, 0.8); width: 100%; margin-left: 30px; margin-right: auto; margin-top: 20px; border-radius: 3px;">
+    <ul class="col-md-3 col-xs-6 col-sm-6 ">
+      <h2><a href="#" class="nostyle ">social</a></h2>
+          <li><a href="https://boards.4chan.org/g/ ">facebook</a></li>
+          <li><a href="https://twitter.com/search ">twitter</a></li>
+          <li><a href="https://instagram.com/explore/tags/cool ">instagram</a></li>
+	      <li><a href="https://www.linkedin.com/ ">linkedin</a></li>
+          <li><a href="https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/ ">gmail</a></li>
+		  <li><a href="http://forumoff.com/ ">off>all</a></li>
+    </ul>
+    <ul class="col-md-3 col-xs-6 col-sm-6 ">
+       <h2><a href="#" class="nostyle ">idk</a></h2>
+          <li><a href="https://4chan.org/g ">/g/</a></li>
+          <li><a href="https://twitch.tv/directory/game/Dota%202 ">twitch</a></li>
+		  <li><a href="https://reddit.com/r/dota2 ">r/dota2</a></li>
+		  <li><a href="http://www.gosugamers.net/dota2 ">gosugamers</a></li>
+		  <li><a href="http://www.joindota.com/en/start ">joindota</a></li>
+    </ul>
+    <ul class="col-md-3 col-xs-6 col-sm-6 ">
+      <h2><a href="#" class="nostyle ">media</a></h2>
+          <li><a href="https://youtube.com/~mastersdsds">youtube</a></li>
+          <li><a href="https://soundcloud.com/ ">soundcloud</a></li>
+          <li><a href="https://rgf.is/ ">rgf</a></li>
+		  <li><a href="http://predb.me/ ">predb</a></li>
+		  <li><a href="http://www.scenesource.me/category/films/bluray/ ">scenesource</a></li>
+		  <li><a href="http://opensubtitles.org/ ">opensubtitles</a></li>
+		  <li><a href="https://legendas.tv/ ">legendas.tv</a></li>
+		  <li><a href="https://filewarez.tv/ ">fw</a></li>
+    </ul>
+    <ul class="col-md-3 col-xs-6 col-sm-6 ">
+      <h2><a href="#" class="nostyle ">011010101</a></h2>
+	  <li><a href="https://github.com/ ">github</a></li>
+          <li><a href="http://ddwrt/ ">ddwrt</a></li>
+          <li><a href="http://xpo.pw ">xpo.pw</a></li>
+          <li><a href="http://superuser.xyz">superuser.xyz</a></li>
+	  <li><a href="#" style="visibility: hidden; ">&nbsp;</a></li>
+    </ul>
+  </div>
+	</div>
+	<div class="navbar navbar-fixed-bottom">
+		<div class="navbar-inner">
+			<ul class="nav.pull-right">			
+				<div id="clock"></div>
+					</ul>
+				</li>
+			</ul>
+		</div>
+    </div>
+</body>
+</html>
